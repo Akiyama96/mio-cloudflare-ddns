@@ -1,0 +1,18 @@
+###List DNS Records
+GET https://api.cloudflare.com/client/v4/zones/{zone-id}/dns_records
+X-Auth-Email:
+X-Auth-Key:
+
+###OverwriteDNSRecord
+PUT https://api.cloudflare.com/client/v4/zones/{zone-id}/dns_records/{record-id}
+X-Auth-Email:
+X-Auth-Key:
+Content-Type: application/json
+
+{
+  "type":"A",
+  "name":"",
+  "content":"",
+  "ttl": 60,
+  "proxied": false
+}

@@ -1,0 +1,11 @@
+{
+  "server_info": {
+    "type":"A",
+    "name":"abc.example.com",
+    "ttl":60,
+    "proxied":false
+  },
+  "server_setting": {
+    "intervals_min": 1
+  }
+}

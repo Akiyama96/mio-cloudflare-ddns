@@ -1,0 +1,1 @@
+go build -ldflags="-s -w" -o ./ddns_windows_amd64.exe ./main.go
